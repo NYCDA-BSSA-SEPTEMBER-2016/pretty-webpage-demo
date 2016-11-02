@@ -1,0 +1,41 @@
+html
+	- var title = 'Amazing Brocolies'
+	include includes/header.pug
+
+	body
+		nav
+			div.nav-wrapper
+				a#logo.brand-logo MB
+				ul.right
+					li
+						a( href="/" ) Home
+					li
+						a Contact
+		div#header.valign-wrapper
+			div.row.valign
+				div.col.l12
+					h1.center.white-text What do I do?
+		main
+			div.container
+				div.row
+					div.col.l8.offset-l2
+						div#topcard.card
+							div.card-content
+								h2 Lorem Ipsum
+								p.flow-text.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								br
+								p.flow-text.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		include includes/footer.pug
